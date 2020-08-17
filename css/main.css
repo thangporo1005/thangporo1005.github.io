@@ -45,27 +45,27 @@ body{
 }
 .page-2 h2{
 	position: absolute;
-	top: 790px;
+	top: 760px;
 	left: 560px;
-	font-size: 10px;
+	font-size: 15px;
 	z-index: 1;
 	color: white;
 	width: 400px;
 }
 .page-3 h2{
 	position: absolute;
-	top: 800px;
+	top: 766px;
 	left: 560px;
-	font-size: 10px;
+	font-size: 15px;
 	z-index: 1;
 	color: black;
 	width: 400px;
 }
 .page-4 h2{
 	position: absolute;
-	top: 790px;
+	top: 730px;
 	left: 430px;
-	font-size: 10px;
+	font-size: 15px;
 	z-index: 1;
 	color: white;
 	width: 400px;
@@ -113,7 +113,7 @@ body{
 .menu{
 	position: fixed;
 	z-index: 1;
-	left: 717px;
+	left: 38.5%;
 	top:60px;
 	
 }
