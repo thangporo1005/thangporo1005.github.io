@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+
+}
+.wrapper{
+	width: 1920px;
+	height: 3900px;
+	margin: 0 auto;
+	background-image: url(../images/Untitled-2-01.png);
+	 background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-1 h1{
+	position: absolute;
+	z-index: 1;
+	left: 43%;
+	font-size: 30px;
+	font-weight: 700;
+	top: 15px;
+	color: white;
+}
+.page-1{
+	position: relative;
+}
+.page-1 img{
+	position: absolute;
+}
+.page-1 .ct-1{
+	margin-left: 349px;
+	margin-top: 237px;
+}
+.page-2{
+	position: relative;
+	top: 1000px;
+}
+.page-2 h2{
+	position: absolute;
+	top: 790px;
+	left: 560px;
+	font-size: 10px;
+	z-index: 1;
+	color: white;
+	width: 400px;
+}
+.page-3 h2{
+	position: absolute;
+	top: 800px;
+	left: 560px;
+	font-size: 10px;
+	z-index: 1;
+	color: black;
+	width: 400px;
+}
+.page-4 h2{
+	position: absolute;
+	top: 790px;
+	left: 430px;
+	font-size: 10px;
+	z-index: 1;
+	color: white;
+	width: 400px;
+}
+.page-2 h4{
+	position: absolute;
+	z-index: 1;
+	top: 250px;
+	left: 1400px;
+	color: white;
+	font-size: 15px;
+	transform: rotate(-90deg);
+}
+.page-2 h3{
+	position: absolute;
+	z-index: 1;
+	top: 860px;
+	left: 1500px;
+	color: white;
+	font-size: 15px;
+}
+.page-3 h3{
+	position: absolute;
+	z-index: 1;
+	top: 860px;
+	left: 1500px;
+	color: black;
+	font-size: 15px;
+}
+.page-4 h3{
+	position: absolute;
+	z-index: 1;
+	top: 860px;
+	left: 1500px;
+	color: white;
+	font-size: 15px;
+}
+.page-2 img{
+	position: absolute;
+}
+.page-2 .ct-2{
+	margin-top: 53px;
+	margin-left: 342px;
+}
+.menu{
+	position: fixed;
+	z-index: 1;
+	left: 717px;
+	top:60px;
+	
+}
+.menu ul{ 
+	
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+
+}
+.menu ul li a{
+	color: #000000;
+	margin-left: 60px;
+	border: none;
+	transition-duration: 0.2s;
+		text-decoration: none;
+}
+.menu ul li a:hover {
+	border: solid #000000 1px;
+	border-bottom: 20px solid #000000;
+	color: #91bdb4;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+.page-3{
+	position: relative;
+	top: 2000px;
+}
+.page-3 img{
+	position: absolute;
+}
+.page-3 .ct-3{
+	position: relative;
+	top: 200px;
+	left: 250px;
+}
+.page-4{
+	position: relative;
+	top: 2340px;
+}
+.page-4 img{
+	position: absolute;
+}
+.page-4 .ct-4{
+	position: relative;
+	top: 130px;
+	left: 430px;
+}
+.item h4{
+	font-size: 30px;
+	font-weight: 900;
+	margin-top: 5px;
+}
